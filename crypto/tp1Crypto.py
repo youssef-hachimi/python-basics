@@ -1,5 +1,5 @@
 # print("################# chiffre de Cesar #########")
-# message= input("Entrer le messqge a chiffre : ")
+# message= input("Entrer le message a chiffre : ")
 # key= int(input("Entrer le key a chiffre "))#(doit etre enter 1-26):
 # # Letters = []
 # letters = 'abcdefghijklmnopqrstuvwxyz'
@@ -65,3 +65,4 @@ def dechiffre(ciphertext, key):
         else:
             plaintext += letter
     return plaintext
+
