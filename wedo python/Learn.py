@@ -28,7 +28,17 @@ print(eats[1][1]) #humburger
 print(eats[1][0]) #pizza
 print(eats[2][1]) #ice crem
 
+# tuple
+student = ("youssef",20,"male","CS")
 
+print(student.count("youssef"))
+print(student.index("male"))
+
+for x in student:
+    print(x)
+
+if "CS" in student:
+    print("he is cybersecurity student")
 
 
 
