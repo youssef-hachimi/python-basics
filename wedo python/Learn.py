@@ -39,6 +39,15 @@ for x in student:
 
 if "CS" in student:
     print("he is cybersecurity student")
+# Dictionary
+capitals = {"USA":'Washington',
+            'Morocco':'Rabat',
+            'taly':'Milan',
+            'China':'Beijing'}
+print(capitals['Morocco'])
+print(capitals['USA'])
+print(capitals['Italy'])
+
 
 
 
