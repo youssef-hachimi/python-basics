@@ -48,6 +48,18 @@ print(capitals['Morocco'])
 print(capitals['USA'])
 print(capitals['Italy'])
 
+#POO in Python
+class Personne:
+    def __init__(Self,nom,age):
+        Self.nom = nom
+        Self.age = age
+ # create object : 
+Personne1 = Personne("youssef",20)
+Personne2 = Personne("oumaima",20)
+#print 
+
+print(Personne1.nom, Personne1.age)
+print(f"HI my name is {Personne2.nom}  and I am {Personne2.age} years old")
 
 
 
