@@ -62,6 +62,17 @@ print(Personne1.nom, Personne1.age)
 print(f"HI my name is {Personne2.nom}  and I am {Personne2.age} years old")
 
 
+# Access Types :
+class employee
+    def __init__(Self,nom,age,salaire)
+        Self.nom = nom # public 
+        Self._age = age # protected
+        Self.__salaire = alaire #private    
+    employee1 = employee("ahmed", 23, 2000)
+print(employee1.nom)
+print(employee1._age)
+print(employee1.__salaire) #error
+
 
 
 
