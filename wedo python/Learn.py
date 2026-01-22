@@ -47,6 +47,38 @@ capitals = {"USA":'Washington',
 print(capitals['Morocco'])
 print(capitals['USA'])
 print(capitals['Italy'])
+#exercice : 
+notes = []
+
+while True:
+    note = float(input("Entrez une note entre 1 et 20 (0 pour arrêter) : "))
+
+    if note == 0:
+        break
+
+    if 1 <= note <= 20:
+        notes.append(note)
+    else:
+        print("Note invalide, veuillez entrer une note entre 1 et 20.")
+
+# Vérifier s'il y a au moins une note
+if len(notes) > 0:
+    moyenne = sum(notes) / len(notes)
+    note_max = max(notes)
+    note_min = min(notes)
+
+    print("\nNombre de notes :", len(notes))
+    print("Moyenne :", moyenne)
+    print("Note maximale :", note_max)
+    print("Note minimale :", note_min)
+
+    # Affichage selon le seuil
+    if moyenne >= 12:
+        print("Résultat : Validé")
+    else:
+        print("Résultat : Non validé")
+else:
+    print("Aucune note saisie.")
 
 #POO in Python
 class Personne:
@@ -72,6 +104,7 @@ class employee
 print(employee1.nom)
 print(employee1._age)
 print(employee1.__salaire) #error
+
 
 
 
